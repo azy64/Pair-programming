@@ -1,38 +1,47 @@
 /* making the header design */
 
 @font-face {
-    font-family: "Poppins-Regular";
-    src: url("../fonts/Poppins-Regular.ttf");
+  font-family: "Poppins-Regular";
+  src: url("../fonts/Poppins-Regular.ttf");
 }
 
 * {
-    font-family: "Poppins-Regular", Helvetica, Arial, Verdana, Tahoma, sans-serif !important;
+  font-family: "Poppins-Regular", Helvetica, Arial, Verdana, Tahoma, sans-serif !important;
 }
 
 .project-section {
-    background-color: white;
+  background-color: white;
 }
 
 .technologies {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .technologies li {
-    list-style-type: none;
-    float: left;
-    margin: 5px;
-    margin-left: 8px;
+  list-style-type: none;
+  float: left;
+  margin: 5px;
+  margin-left: 8px;
+  min-width: 70px;
+}
+
+.p-10 {
+  padding: 8px;
 }
 
 .technologies li a {
   text-decoration: none;
+  color: #6070ff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .button-li {
   border-radius: 10px;
   background: #ebebff;
-  padding: 6px;
 }
 
 .text-center {
