@@ -1,7 +1,23 @@
 /* making the header design */
+
 @font-face {
-  font-family: "Poppins-Regular";
-  src: url("../fonts/Poppins-Regular.ttf");
+    font-family: "Poppins-Regular";
+    src: url("../fonts/Poppins-Regular.ttf");
 }
 
-* { font-family: "Poppins-Regular", Helvetica, Arial, Verdana, Tahoma, sans-serif !important; }
+* {
+    font-family: "Poppins-Regular", Helvetica, Arial, Verdana, Tahoma, sans-serif !important;
+}
+
+.project-section {
+    background-color: white;
+}
+
+.technologies {
+    margin: 0;
+    padding: 0;
+}
+
+.technologies li {
+    list-style-type: none;
+}
